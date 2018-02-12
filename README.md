@@ -1,3 +1,2 @@
-# Data_Science_Competitions_Kaggle
+# Identifying Toxic Comments
 
-Repository is house for Data science projects worked.This consists of documented codes, analysis and reports

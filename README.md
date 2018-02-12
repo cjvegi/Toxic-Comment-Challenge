@@ -30,7 +30,7 @@ The types of toxicity are:
 ![Pipeline](img_gh/Toxic.png)
 ### 1. Label/Target Distribution:
 
-                                                  ### Labels Distribution
+                                                   Labels Distribution
                                                   
 ![Pipeline](img_gh/label_distribution.png)
 
@@ -75,9 +75,9 @@ Since we have mutlitple labels, we are dealing with Mulit-label classification m
 
 ### i. Transforming the problem to a single label classification problem
 
-    a. Binary Relevance: In this labels are treated idependently i.e., for each label, a classifier is trained on the input data. Since, we have six labels, we would have six different classifers
+   a. Binary Relevance: In this labels are treated idependently i.e., for each label, a classifier is trained on the input data. Since, we have six labels, we would have six different classifers
   
-    b. Classifier Chains: In this, the first classifier is trained just on the input data and one label and then each next classifier is trained on the input space and all the previous classifiers in the chain.
+   b. Classifier Chains: In this, the first classifier is trained just on the input data and one label and then each next classifier is trained on the input space and all the previous classifiers in the chain.
  
  Example:
   
@@ -93,10 +93,10 @@ Since we have mutlitple labels, we are dealing with Mulit-label classification m
 
 ### ii. Different Machine learning models used:
 
-    a. Random Forest 
-    b. Logistic Regression  
-    c. XGBoost 
-    d. Convolutional Neural Netrwork(CNN) 
+   a. Random Forest   
+   b. Logistic Regression   
+   c. XGBoost   
+   d. Convolutional Neural Netrwork(CNN)    
     
 The below plot shows increase in accuracy above base line training a logistic regression on input data, by adopting two methods mentioned above i.e., Binary Relevance and Classifier Chains.
 

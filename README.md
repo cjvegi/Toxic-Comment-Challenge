@@ -102,6 +102,8 @@ The below plot shows increase in accuracy above base line training a logistic re
 
   ![WordCloud](img_gh/binvschain.png)
   
+Finally, to improve accuracy different ensembling approaches are adopted
+  
 
 ### Accuracy: 
 

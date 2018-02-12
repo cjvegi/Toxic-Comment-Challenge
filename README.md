@@ -23,12 +23,12 @@ The types of toxicity are:
 
 ## Pipeline
 
-![Pipeline](img_ph/Toxic.png)
+![Pipeline](img_gh/Toxic.png)
 ### 1. Label/Target Distribution:
 
                                                   ### Labels Distribution
                                                   
-![Pipeline](img_ph/label_distribution.png)
+![Pipeline](img_gh/label_distribution.png)
 
 The data is imbalanced due to skewed label distribution
 
@@ -42,7 +42,7 @@ The data is imbalanced due to skewed label distribution
 
 Look at words that are frequent in a toxic label:
 
-![WordCloud](img_ph/word_cloud.png)
+![WordCloud](img_gh/word_cloud.png)
 
 
 
@@ -71,13 +71,13 @@ Since we have mutlitple labels, we are dealing with Mulit-label classification m
   b. Classifier Chains: In this, the first classifier is trained just on the input data and one label and then each next classifier is trained on the input space and all the previous classifiers in the chain.
   Example:
   
-  ![WordCloud](img_ph/chain_1.png)
+  ![WordCloud](img_gh/chain_1.png)
   Lets say we have our data represented as,
   
   The problem would be transformed into 4 different single label problems as shown below.  
     Yellow colour portion is the input space 
     White coloured portion represent the target/label variable
-  ![WordCloud](img_ph/Chain_2.png)
+  ![WordCloud](img_gh/Chain_2.png)
 
 ### 2. Different Machine learning models used:
   a. Random Forest
@@ -85,10 +85,20 @@ Since we have mutlitple labels, we are dealing with Mulit-label classification m
   c. XGBoost
   d. Convolutional Neural Netrwork(CNN)
   
-  ![WordCloud](img_ph/binvschain.png)
+  ![WordCloud](img_gh/binvschain.png)
   
 
-Accuracy: Mean column wise(sum of all labels) area under receiver operating characteristic curve is 0.9811 on the Kaggle Leaderboard(Ongoing)
+### Accuracy: Mean column wise(sum of all labels) area under receiver operating characteristic curve is 0.9811 on the Kaggle Leaderboard(Ongoing)
 
 Detailed Project report and Code
 [GitHub](https://github.com/cjvegi/Toxic-Comment-Challenge)
+
+## 5. Deployment
+As a way to gather more data and test the model, trained machine learning model is deployed using Flask which is hosted at [chiranjeevivegi.pythonanywhere.com](http://chiranjeevivegi.pythonanywhere.com/)
+
+
+
+### References:
+1. https://www.analyticsvidhya.com/blog/2017/08/introduction-to-multi-label-classification/
+2. https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e
+3. https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge

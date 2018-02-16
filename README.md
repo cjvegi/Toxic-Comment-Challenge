@@ -108,7 +108,7 @@ Finally, to improve accuracy different ensembling approaches are adopted
 
 ### Accuracy: 
 
-Mean column wise(sum of all labels) area under receiver operating characteristic curve is 0.9835 on the Kaggle Leaderboard(Ongoing). Current placed in top17% on Kaggle leaderboard.
+Using Ensembleing methods, Mean column wise(sum of all labels) area under receiver operating characteristic curve is 0.9835 on the Kaggle Leaderboard(Ongoing) is achieved. Current placed in top17% on Kaggle leaderboard.
 
 Detailed Project report and Code
 [GitHub](https://github.com/cjvegi/Toxic-Comment-Challenge)

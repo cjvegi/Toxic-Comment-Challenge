@@ -68,6 +68,7 @@ Feature generation techniques
   a. Bag of Words
   b. Term frequency–inverse document frequency(tf-idf)
   c. Word2Vec
+  d. sentiment polarity using TextBlob
   
 ### 4. Machine Learning:
 
@@ -93,10 +94,10 @@ Since we have mutlitple labels, we are dealing with Mulit-label classification m
 
 ### ii. Different Machine learning models used:
 
-   a. Random Forest   
-   b. Logistic Regression   
-   c. XGBoost   
-   d. Convolutional Neural Netrwork(CNN)    
+   a. Random Forest    
+   b. Logistic Regression     
+   c. XGBoost      
+   d. Artificial Neural Netrwork(ANN)     
     
 The below plot shows increase in accuracy above base line training a logistic regression on input data, by adopting two methods mentioned above i.e., Binary Relevance and Classifier Chains.
 
@@ -107,16 +108,21 @@ Finally, to improve accuracy different ensembling approaches are adopted
 
 ### Accuracy: 
 
-Mean column wise(sum of all labels) area under receiver operating characteristic curve is 0.9811 on the Kaggle Leaderboard(Ongoing)
+Mean column wise(sum of all labels) area under receiver operating characteristic curve is 0.9835 on the Kaggle Leaderboard(Ongoing). Current placed in top17% on Kaggle leaderboard.
 
 Detailed Project report and Code
 [GitHub](https://github.com/cjvegi/Toxic-Comment-Challenge)
 
 ## 5. Web Deployment
 
-As a way to gather more data and test the model, trained machine learning model is deployed using Flask which is hosted at [chiranjeevivegi.pythonanywhere.com](http://chiranjeevivegi.pythonanywhere.com/)
+As a way to gather more data and test the model, trained machine learning model is deployed using Flask which is hosted at [chiranjeevivegi.pythonanywhere.com](http://chiranjeevivegi.pythonanywhere.com/). The users reviews and the label(toxic or non toxic) specified by users are stored in database which can be used to train the model on.
 
 ![WordCloud](img_gh/Webdev.png)
+
+
+## 6. Future Work:
+  a. Feature generation: Word Embedding(Word2Vec, GLobal Vectors for Word Representation(GloVe)
+  b. Long short term memory(LSTM), Gated Recurrent Unit(GRU), Convolutional Neural Network(CNN)
 
 
 ### References:

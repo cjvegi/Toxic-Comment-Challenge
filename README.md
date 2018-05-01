@@ -59,12 +59,12 @@ Let's take a look at the that are frequent in a toxic label:
 
 ### 2. Cleaning text
 
-Steps involved in cleaning:
-  a. Removing all irrelevant characters such as any non alphanumeric characters
-  b. Convert all characters to lowercase
-  c. Tokenizing comments into individual words
-  d. lemmatization
-  e. Stemming
+Steps involved in cleaning:   
+  a. Removing all irrelevant characters such as any non alphanumeric characters   
+  b. Convert all characters to lowercase   
+  c. Tokenizing comments into individual words   
+  d. lemmatization    
+  e. Stemming    
 
 ### 3. Feature Generation
 

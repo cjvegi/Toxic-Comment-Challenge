@@ -10,8 +10,12 @@ To effectively facilitate conversations on online community, leading many commun
 
 ## Project Description:
 
-Discussing things you care about can be difficult. The threat of abuse and harassment online means that many people stop expressing themselves and give up on seeking different opinions. 
-The Conversation AI team, a research initiative founded by Jigsaw and Google (both a part of Alphabet) are working on tools to help improve online conversation. One area of focus is the study of negative online behaviors, like toxic comments (i.e. comments that are rude, disrespectful or otherwise likely to make someone leave a discussion). So far they’ve built a range of publicly available models served through the Perspective API, including toxicity. But the current models still make errors, and they don’t allow users to select which types of toxicity they’re interested in finding (e.g. some platforms may be fine with profanity, but not with other types of toxic content).
+With the recent growth of people on the internet, civil conversations are seeing a decline. "Whatever intelligent observations do lurk there are often drowned out by obscenities, ad-hominem attacks, and off-topic rants."  These things are forcing many online platforms which once flourished with intellectual discussions to close the comment sections. To facilitate meaningful conversations on their online platform The New York Times employed full-time moderators who moderate nearly 11,000 comments per day on the selected article(roughly 10% of Times articles). However, for small firms operating people for these tasks might be out of scope. To aid, the Conversation AI team, a research initiative founded by Jigsaw and Google (both a part of Alphabet) are working on tools to help improve online conversation. One area of focus is the study of negative online behaviors, like toxic comments (i.e. comments that are rude, disrespectful or otherwise likely to make someone leave a discussion). So far they’ve built a range of publicly available models served through the Perspective API, including toxicity. But the current models still make errors, and they don’t allow users to select which types of toxicity they’re interested in finding (e.g. some platforms may be fine with profanity, but not with other types of toxic content).
+
+Resources:
+1. [A Bot That Identifies 'Toxic' Comments Online](https://www.theatlantic.com/technology/archive/2017/02/a-bot-that-identifies-toxic-comments-online/517563/)
+2. [A Brief History of the End of the Comments](https://www.wired.com/2015/10/brief-history-of-the-demise-of-the-comments-timeline/)
+3. [The Times is Partnering with Jigsaw to Expand Comment Capabilities](https://www.nytco.com/the-times-is-partnering-with-jigsaw-to-expand-comment-capabilities/)
 
 ## Data
 
@@ -34,9 +38,11 @@ The types of toxicity are:
                                                   
 ![Pipeline](img_gh/label_distribution.png)
 
-The data is imbalanced due to skewed label distribution
+As we notice from the above plot, data is imbalanced i.e., target/labels are heavily skewed. For example, we have 99.12% non identity hate comments and less than 1% identity comments. 
 
 ### Base Accuracy for each Label
+
+Base accuracy on the train data is obtained by prediciting all labels as non-toxic comments. Thus, we have base accuracy for the each of the following label/targets
 
   1. Toxic: 90.42 %
   2. Severe_toxic: 99.00 %
@@ -45,7 +51,7 @@ The data is imbalanced due to skewed label distribution
   5. Insult: 95.06 %
   6. Identity_hate: 99.12 %
 
-Look at words that are frequent in a toxic label:
+Let's take a look at the that are frequent in a toxic label:
 
 ![WordCloud](img_gh/word_cloud.png)
 

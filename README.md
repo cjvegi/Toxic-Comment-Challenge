@@ -20,13 +20,13 @@ Resources:
 ## Data
 
 Source: [Kaggle: Toxic Comment Classification Challenge](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge). It consists of large number of Wikipedia comments which have been labeled by human raters for toxic behavior. 
-The types of toxicity are:
-  a. toxic
-  b. severe_toxic
-  c. obscene
-  d. threat
-  e. insult
-  f. identity_hate
+The types of toxicity are:   
+  a. toxic   
+  b. severe_toxic  
+  c. obscene  
+  d. threat 
+  e. insult  
+  f. identity_hate  
 
 
 ## Pipeline

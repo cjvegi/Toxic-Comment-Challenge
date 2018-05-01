@@ -25,8 +25,8 @@ The types of toxicity are:
   b. severe_toxic  
   c. obscene  
   d. threat 
-  e. insult  
-  f. identity_hate  
+  e. insult    
+  f. identity_hate     
 
 
 ## Pipeline

@@ -135,3 +135,6 @@ As a way to gather more data and test the model, trained machine learning model 
 1. https://www.analyticsvidhya.com/blog/2017/08/introduction-to-multi-label-classification/
 2. https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e
 3. https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge
+
+
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vQTl2IB3WDrCoFlNTmuDdgELBYyiV4TbKLIQKNaeCce0MgNGiR3W-LyGjrAxuimyu7ax4qgDJ4ytPCF/pub?embedded=true"></iframe>

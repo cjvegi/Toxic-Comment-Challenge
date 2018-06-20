@@ -17,7 +17,7 @@ Resources:
 	
 ## Data	
 	
--Source: [Kaggle: Toxic Comment Classification Challenge](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge). It consists of large number of Wikipedia comments which have been labeled by human raters for toxic behavior. 	
+Source: [Kaggle: Toxic Comment Classification Challenge](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge). It consists of large number of Wikipedia comments which have been labeled by human raters for toxic behavior. 	
 The types of toxicity are:   	
   a. toxic   	
   b. severe_toxic  	
@@ -79,8 +79,8 @@ Feature generation techniques
 Since we have mutlitple labels, we are dealing with Mulit-label classification model. We can approach this problem in different way, some of which used in this project are	
 	
 ### i. Transforming the problem to a single label classification problem	
--	
--   a. Binary Relevance: In this labels are treated idependently i.e., for each label, a classifier is trained on the input data. Since, we have six labels, we would have six different classifers	
+	
+   a. Binary Relevance: In this labels are treated idependently i.e., for each label, a classifier is trained on the input data. Since, we have six labels, we would have six different classifers	
   	
    b. Classifier Chains: In this, the first classifier is trained just on the input data and one label and then each next classifier is trained on the input space and all the previous classifiers in the chain.	
  	

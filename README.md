@@ -139,6 +139,8 @@ As a way to gather more data and test the model, trained machine learning model 
 
 
 
-<body style="margin:0px;padding:0px;overflow:hidden">
+<center>
+  <body style="margin:0px;padding:0px;overflow:hidden">
     <iframe src="https://docs.google.com/document/d/e/2PACX-1vQTl2IB3WDrCoFlNTmuDdgELBYyiV4TbKLIQKNaeCce0MgNGiR3W-LyGjrAxuimyu7ax4qgDJ4ytPCF/pub?embedded=true" frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:150%;width:150%;position:absolute;top:0px;left:0px;right:0px;bottom:0px" height="150%" width="150%"></iframe>
 </body>
+  </center>
